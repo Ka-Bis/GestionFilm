@@ -1,6 +1,6 @@
 ﻿namespace GestionFilm
 {
-    partial class Form2
+    partial class FormAddMovie
     {
         /// <summary>
         /// Required designer variable.
@@ -36,36 +36,37 @@
             this.LabelYear = new System.Windows.Forms.Label();
             this.TextBoxGenre = new System.Windows.Forms.TextBox();
             this.LabelGenre = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextBoxTitle = new System.Windows.Forms.TextBox();
             this.LabelMovieName = new System.Windows.Forms.Label();
             this.GroupBoxAddMovie.SuspendLayout();
             this.SuspendLayout();
             // 
             // ButtonSendMovie
             // 
-            this.ButtonSendMovie.Location = new System.Drawing.Point(534, 317);
+            this.ButtonSendMovie.Location = new System.Drawing.Point(144, 263);
             this.ButtonSendMovie.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ButtonSendMovie.Name = "ButtonSendMovie";
-            this.ButtonSendMovie.Size = new System.Drawing.Size(112, 35);
+            this.ButtonSendMovie.Size = new System.Drawing.Size(322, 35);
             this.ButtonSendMovie.TabIndex = 3;
             this.ButtonSendMovie.Text = "Envoyer";
             this.ButtonSendMovie.UseVisualStyleBackColor = true;
             // 
             // GroupBoxAddMovie
             // 
+            this.GroupBoxAddMovie.AutoSize = true;
             this.GroupBoxAddMovie.Controls.Add(this.TextBoxStudio);
             this.GroupBoxAddMovie.Controls.Add(this.LabelStudio);
             this.GroupBoxAddMovie.Controls.Add(this.TextBoxYear);
             this.GroupBoxAddMovie.Controls.Add(this.LabelYear);
             this.GroupBoxAddMovie.Controls.Add(this.TextBoxGenre);
             this.GroupBoxAddMovie.Controls.Add(this.LabelGenre);
-            this.GroupBoxAddMovie.Controls.Add(this.textBox1);
+            this.GroupBoxAddMovie.Controls.Add(this.TextBoxTitle);
             this.GroupBoxAddMovie.Controls.Add(this.LabelMovieName);
-            this.GroupBoxAddMovie.Location = new System.Drawing.Point(70, 54);
+            this.GroupBoxAddMovie.Location = new System.Drawing.Point(33, 29);
             this.GroupBoxAddMovie.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.GroupBoxAddMovie.Name = "GroupBoxAddMovie";
             this.GroupBoxAddMovie.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.GroupBoxAddMovie.Size = new System.Drawing.Size(576, 253);
+            this.GroupBoxAddMovie.Size = new System.Drawing.Size(576, 224);
             this.GroupBoxAddMovie.TabIndex = 2;
             this.GroupBoxAddMovie.TabStop = false;
             this.GroupBoxAddMovie.Text = "Ajouter un film";
@@ -130,14 +131,14 @@
             this.LabelGenre.TabIndex = 2;
             this.LabelGenre.Text = "Genre";
             // 
-            // textBox1
+            // TextBoxTitle
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(9, 74);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 26);
-            this.textBox1.TabIndex = 1;
+            this.TextBoxTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxTitle.Location = new System.Drawing.Point(9, 74);
+            this.TextBoxTitle.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TextBoxTitle.Name = "TextBoxTitle";
+            this.TextBoxTitle.Size = new System.Drawing.Size(235, 26);
+            this.TextBoxTitle.TabIndex = 1;
             // 
             // LabelMovieName
             // 
@@ -154,16 +155,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(641, 323);
             this.Controls.Add(this.ButtonSendMovie);
             this.Controls.Add(this.GroupBoxAddMovie);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Ajouter un film";
             this.GroupBoxAddMovie.ResumeLayout(false);
             this.GroupBoxAddMovie.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -177,7 +179,7 @@
         private System.Windows.Forms.Label LabelYear;
         private System.Windows.Forms.TextBox TextBoxGenre;
         private System.Windows.Forms.Label LabelGenre;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TextBoxTitle;
         private System.Windows.Forms.Label LabelMovieName;
     }
 

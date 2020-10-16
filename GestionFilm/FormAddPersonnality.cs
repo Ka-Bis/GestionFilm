@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GestionFilm
 {
-    public partial class Form2 : Form
+    public partial class FormAddPersonnality : Form
     {
-        public Form2()
+        public FormAddPersonnality()
         {
             InitializeComponent();
+        }
+
+        private void ButtonSendPerson_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

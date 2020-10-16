@@ -14,6 +14,6 @@ namespace GestionFilm.Entities
         public string Studio { get; set; }
 
         public int PersonnalityId { get; set; }
-        public Personnality Personnality { get; set; }
+        public List<Personnality> Personnality { get; set; }
     }
 }

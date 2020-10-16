@@ -1,6 +1,6 @@
 ﻿namespace GestionFilm
 {
-    partial class Form3
+    partial class FormAddPersonnality
     {
         /// <summary>
         /// Required designer variable.
@@ -46,10 +46,11 @@
             // 
             // ButtonSendPerson
             // 
-            this.ButtonSendPerson.Location = new System.Drawing.Point(521, 291);
+            this.ButtonSendPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSendPerson.Location = new System.Drawing.Point(140, 276);
             this.ButtonSendPerson.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ButtonSendPerson.Name = "ButtonSendPerson";
-            this.ButtonSendPerson.Size = new System.Drawing.Size(112, 35);
+            this.ButtonSendPerson.Size = new System.Drawing.Size(282, 35);
             this.ButtonSendPerson.TabIndex = 5;
             this.ButtonSendPerson.Text = "Envoyer";
             this.ButtonSendPerson.UseVisualStyleBackColor = true;
@@ -69,7 +70,7 @@
             this.GroupBoxAddPerson.Controls.Add(this.TextBoxName);
             this.GroupBoxAddPerson.Controls.Add(this.LabelName);
             this.GroupBoxAddPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupBoxAddPerson.Location = new System.Drawing.Point(109, 26);
+            this.GroupBoxAddPerson.Location = new System.Drawing.Point(26, 26);
             this.GroupBoxAddPerson.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.GroupBoxAddPerson.Name = "GroupBoxAddPerson";
             this.GroupBoxAddPerson.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -192,11 +193,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(608, 328);
             this.Controls.Add(this.ButtonSendPerson);
             this.Controls.Add(this.GroupBoxAddPerson);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Ajouter une celebrité";
             this.GroupBoxAddPerson.ResumeLayout(false);
             this.GroupBoxAddPerson.PerformLayout();
             this.ResumeLayout(false);

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,22 +12,22 @@ using System.Windows.Forms;
 
 namespace GestionFilm
 {
-    public partial class Form1 : Form
+    public partial class FormManageMovie : Form
     {
-        public Form1()
+        public FormManageMovie()
         {
             InitializeComponent();
         }
 
-        private void ButtonAddMovie_Click(object sender, EventArgs e)
+        private void menuItem2_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            FormAddMovie form2 = new FormAddMovie();
             form2.Show();
         }
 
-        private void ButtonAddPersonnality_Click(object sender, EventArgs e)
+        private void menuItem3_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            FormAddPersonnality form3 = new FormAddPersonnality();
             form3.Show();
         }
     }

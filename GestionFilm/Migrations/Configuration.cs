@@ -10,6 +10,7 @@ namespace GestionFilm.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "GestionFilm.BDDContext";
         }
 
         protected override void Seed(GestionFilm.BDDContext context)
