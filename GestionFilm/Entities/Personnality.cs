@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using WinFormswithEFSample;
 
 namespace GestionFilm.Entities
 {
@@ -13,6 +15,6 @@ namespace GestionFilm.Entities
         public bool Real { get; set; }
         public bool Producer { get; set; }
 
-        public Movie MovieId { get; set; }
+        public virtual List<Movie> Movie { get; set; }
     }
 }

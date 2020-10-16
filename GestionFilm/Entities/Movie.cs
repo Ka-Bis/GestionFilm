@@ -9,10 +9,11 @@ namespace GestionFilm.Entities
     public class Movie
     {
         public int MovieId { get; set; }
-        public string Name { get; set; }
+        public string Title { get; set; }
         public int Year { get; set; }
         public string Studio { get; set; }
 
-        public Personnality PersonnalityId { get; set; }
+        public int PersonnalityId { get; set; }
+        public Personnality Personnality { get; set; }
     }
 }

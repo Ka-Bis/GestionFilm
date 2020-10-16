@@ -51,6 +51,7 @@
             this.ButtonAddMovie.TabIndex = 1;
             this.ButtonAddMovie.Text = "Ajouter un film";
             this.ButtonAddMovie.UseVisualStyleBackColor = true;
+            this.ButtonAddMovie.Click += new System.EventHandler(this.ButtonAddMovie_Click);
             // 
             // ButtonAddPersonnality
             // 
@@ -61,6 +62,7 @@
             this.ButtonAddPersonnality.TabIndex = 2;
             this.ButtonAddPersonnality.Text = "Ajouter une personnalité";
             this.ButtonAddPersonnality.UseVisualStyleBackColor = true;
+            this.ButtonAddPersonnality.Click += new System.EventHandler(this.ButtonAddPersonnality_Click);
             // 
             // Form1
             // 

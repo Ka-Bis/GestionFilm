@@ -16,5 +16,10 @@ namespace GestionFilm
         {
             InitializeComponent();
         }
+
+        private void ButtonSendPerson_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

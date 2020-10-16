@@ -30,6 +30,7 @@
         {
             this.ButtonSendPerson = new System.Windows.Forms.Button();
             this.GroupBoxAddPerson = new System.Windows.Forms.GroupBox();
+            this.TextBoxBirth = new System.Windows.Forms.TextBox();
             this.CheckBoxProduc = new System.Windows.Forms.CheckBox();
             this.CheckBoxReal = new System.Windows.Forms.CheckBox();
             this.CheckBoxActor = new System.Windows.Forms.CheckBox();
@@ -40,7 +41,6 @@
             this.LabelFstName = new System.Windows.Forms.Label();
             this.TextBoxName = new System.Windows.Forms.TextBox();
             this.LabelName = new System.Windows.Forms.Label();
-            this.TextBoxBirth = new System.Windows.Forms.TextBox();
             this.GroupBoxAddPerson.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +53,7 @@
             this.ButtonSendPerson.TabIndex = 5;
             this.ButtonSendPerson.Text = "Envoyer";
             this.ButtonSendPerson.UseVisualStyleBackColor = true;
+            this.ButtonSendPerson.Click += new System.EventHandler(this.ButtonSendPerson_Click);
             // 
             // GroupBoxAddPerson
             // 
@@ -76,6 +77,15 @@
             this.GroupBoxAddPerson.TabIndex = 4;
             this.GroupBoxAddPerson.TabStop = false;
             this.GroupBoxAddPerson.Text = "Ajouter une personnalité";
+            // 
+            // TextBoxBirth
+            // 
+            this.TextBoxBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxBirth.Location = new System.Drawing.Point(9, 158);
+            this.TextBoxBirth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TextBoxBirth.Name = "TextBoxBirth";
+            this.TextBoxBirth.Size = new System.Drawing.Size(151, 26);
+            this.TextBoxBirth.TabIndex = 12;
             // 
             // CheckBoxProduc
             // 
@@ -177,15 +187,6 @@
             this.LabelName.Size = new System.Drawing.Size(42, 20);
             this.LabelName.TabIndex = 0;
             this.LabelName.Text = "Nom";
-            // 
-            // TextBoxBirth
-            // 
-            this.TextBoxBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxBirth.Location = new System.Drawing.Point(9, 158);
-            this.TextBoxBirth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.TextBoxBirth.Name = "TextBoxBirth";
-            this.TextBoxBirth.Size = new System.Drawing.Size(151, 26);
-            this.TextBoxBirth.TabIndex = 12;
             // 
             // Form3
             // 
